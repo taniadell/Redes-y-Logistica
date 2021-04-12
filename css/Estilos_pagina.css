@@ -25,6 +25,10 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family:"Crimson" ;
 }
+
+h3{
+    font-weight: bold;
+}
 img{
     display: block;
     max-width: 100%;
@@ -199,8 +203,21 @@ p{
     visibility: visible;
 }
 
+
+.carousel-inner h3{
+    padding: 180px;
+    font-weight: bold;
+    text-shadow: -2px -2px 1px #0000ff, 2px 2px 1px #0000ff, -2px 2px 1px #0000ff, 2px -2px 1px #0000ff;      
+}
+
+.carousel-inner h4{
+    font-weight: bold;
+    text-shadow: -2px -2px 1px #0000ff, 2px 2px 1px #0000ff, -2px 2px 1px #0000ff, 2px -2px 1px #0000ff;     
+}
+
+
 /* Seccion slider*/
-.flexslider{
+/*.flexslider{
 	width: 100%;
 	position: relative;
 }
